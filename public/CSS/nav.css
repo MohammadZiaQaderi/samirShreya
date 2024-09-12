@@ -1,0 +1,39 @@
+
+ .dropdown-toggle::after {
+    display: none;
+}
+
+/* Ensure the dropdown menu is hidden initially */
+.dropdown-menu.hoverable {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(-10px);
+    /*Initialpositionabove*/
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    -webkit-transition: opacity 0.3s ease, transform 0.3s ease;
+    -moz-transition: opacity 0.3s ease, transform 0.3s ease;
+    -ms-transition: opacity 0.3s ease, transform 0.3s ease;
+    -o-transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.dropdown-menu-right-side {
+    position: absolute !important;
+    top: 0 !important;
+    left: 100% !important;
+    margin-top: -0.5rem !important; /* Adjust if needed */
+    margin-left: 0.125rem !important; /* Adjust if needed */
+    border-radius: 0.25rem !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    display: none;
+}     
+.dropdown-submenu:hover .dropdown-menu-right-side {
+    display: block;
+}

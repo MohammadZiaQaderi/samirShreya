@@ -1,0 +1,11 @@
+
+/* Additional custom styles for better visual appearance */
+.form-container {
+    background-color: #e9f5e9; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.form-label {
+    font-weight: bold;
+}
